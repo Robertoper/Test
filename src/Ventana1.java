@@ -29,7 +29,7 @@ public class Ventana1 extends JFrame {
         JFrame frame = new JFrame("Ventana1");
         frame.setContentPane(new Ventana1().pnlBase);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.pack();
+        frame.setBounds(100,100,500,500);
         frame.setVisible(true);
     }
 }

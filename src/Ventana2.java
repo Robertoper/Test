@@ -13,7 +13,6 @@ public class Ventana2 extends JDialog {
         setContentPane(contentPane);
         setModal(true);
         setVisible(true);
-        setBounds(100,100,500,500);
         getRootPane().setDefaultButton(buttonOK);
         padre.getInfo();
         padre.metodo();
@@ -45,7 +44,6 @@ public class Ventana2 extends JDialog {
             }
         }, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT);
     }
-
 
     private void onOK() {
         // add your code here
